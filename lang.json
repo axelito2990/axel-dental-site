@@ -1,0 +1,132 @@
+{
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "services": "Servicios",
+      "testimonials": "Testimonios",
+      "contact": "Contacto"
+    },
+    "cta": {
+      "book": "Agendar por WhatsApp",
+      "services": "Ver servicios"
+    },
+    "hero": {
+      "title": "Odontología general con trato humano en Nogales, Sonora",
+      "subtitle": "Atención bilingüe (Español/English). Citas el mismo día para urgencias."
+    },
+    "badges": {
+      "years": "+X años de experiencia",
+      "bilingual": "Bilingüe: Español/English",
+      "emergency": "Urgencias"
+    },
+    "form": {
+      "title": "Agenda tu cita",
+      "selectDefault": "Selecciona un servicio",
+      "submit": "Enviar",
+      "privacy": "Nunca compartimos tu información."
+    },
+    "about": {
+      "title": "Sobre mí",
+      "text": "Soy el Dr. Axel Chávez, odontólogo general. Ofrezco atención honesta y tratamientos basados en evidencia para toda la familia.",
+      "point1": "Diagnóstico claro y opciones de tratamiento",
+      "point2": "Equipos esterilizados y protocolos de seguridad",
+      "point3": "Pagos flexibles"
+    },
+    "services": {
+      "title": "Servicios",
+      "cleaning": "Limpieza dental",
+      "cleaningDesc": "Profilaxis profesional para prevenir caries y gingivitis.",
+      "fillings": "Resinas/Empastes",
+      "fillingsDesc": "Restauraciones estéticas y funcionales.",
+      "extractions": "Extracciones",
+      "extractionsDesc": "Extracciones simples y manejo del dolor.",
+      "whitening": "Blanqueamiento",
+      "whiteningDesc": "Tratamientos seguros para una sonrisa más brillante.",
+      "prosthetics": "Prótesis",
+      "prostheticsDesc": "Prótesis parciales y totales a medida.",
+      "emergency": "Urgencias",
+      "emergencyDesc": "Atención el mismo día para dolor o fracturas."
+    },
+    "testimonials": {
+      "title": "Testimonios"
+    },
+    "contact": {
+      "title": "Ubicación & Contacto",
+      "addressLabel": "Dirección:",
+      "addressValue": "Calle/Av. — Número — Colonia, Nogales, Sonora, 84000",
+      "phoneLabel": "Teléfono/WhatsApp:",
+      "hoursLabel": "Horarios:",
+      "hoursValue": "Lun–Sáb 9:00–18:00"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados.",
+      "backTop": "Volver arriba"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    },
+    "cta": {
+      "book": "Book on WhatsApp",
+      "services": "View services"
+    },
+    "hero": {
+      "title": "Human-centered general dentistry in Nogales, Sonora",
+      "subtitle": "Bilingual care (Spanish/English). Same-day emergency appointments."
+    },
+    "badges": {
+      "years": "+X years of experience",
+      "bilingual": "Bilingual: Spanish/English",
+      "emergency": "Emergency care"
+    },
+    "form": {
+      "title": "Book your appointment",
+      "selectDefault": "Select a service",
+      "submit": "Send",
+      "privacy": "We never share your information."
+    },
+    "about": {
+      "title": "About me",
+      "text": "I'm Dr. Axel Chávez, a general dentist. I provide honest care and evidence-based treatments for the whole family.",
+      "point1": "Clear diagnosis and treatment options",
+      "point2": "Sterilized equipment and safety protocols",
+      "point3": "Flexible payment options"
+    },
+    "services": {
+      "title": "Services",
+      "cleaning": "Dental Cleaning",
+      "cleaningDesc": "Professional prophylaxis to prevent cavities and gingivitis.",
+      "fillings": "Fillings",
+      "fillingsDesc": "Aesthetic and functional restorations.",
+      "extractions": "Extractions",
+      "extractionsDesc": "Simple extractions and pain management.",
+      "whitening": "Whitening",
+      "whiteningDesc": "Safe treatments for a brighter smile.",
+      "prosthetics": "Prosthetics",
+      "prostheticsDesc": "Custom partial and full dentures.",
+      "emergency": "Emergency",
+      "emergencyDesc": "Same-day care for pain or fractures."
+    },
+    "testimonials": {
+      "title": "Testimonials"
+    },
+    "contact": {
+      "title": "Location & Contact",
+      "addressLabel": "Address:",
+      "addressValue": "Street — Number — Neighborhood, Nogales, Sonora, 84000",
+      "phoneLabel": "Phone/WhatsApp:",
+      "hoursLabel": "Hours:",
+      "hoursValue": "Mon–Sat 9:00–18:00"
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "backTop": "Back to top"
+    }
+  }
+}

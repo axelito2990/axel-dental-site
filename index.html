@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Axel Chávez | Odontólogo en Nogales, Sonora | Dentist in Nogales, Sonora</title>
+
+  <!-- SEO basics -->
+  <meta name="description" content="Clínica dental del Dr. Axel Chávez en Nogales, Sonora. Limpiezas, resinas, extracciones, blanqueamiento, prótesis y urgencias. Bilingual care: English & Spanish." />
+  <meta name="keywords" content="Odontólogo Nogales Sonora, Dentista Nogales, Dentist in Nogales Mexico, General Dentistry Nogales, Limpieza dental, Dental cleaning" />
+  <link rel="canonical" href="https://www.example.com/" />
+
+  <!-- Hreflang (single page bilingual) -->
+  <link rel="alternate" hreflang="es" href="https://www.example.com/" />
+  <link rel="alternate" hreflang="en" href="https://www.example.com/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Dr. Axel Chávez | Odontólogo en Nogales, Sonora" />
+  <meta property="og:description" content="General dentistry in Nogales, Sonora. English & Spanish. Book your appointment today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.example.com/" />
+  <meta property="og:image" content="https://www.example.com/og-image.jpg" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Preload language pack -->
+  <link rel="preload" href="lang.json" as="fetch" crossorigin="anonymous">
+  
+  <!-- JSON-LD: Dentist LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Dr. Axel Chávez - Odontólogo General",
+    "image": "https://www.example.com/og-image.jpg",
+    "url": "https://www.example.com/",
+    "telephone": "+52-XXX-XXX-XXXX",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle/Av. — Número — Colonia",
+      "addressLocality": "Nogales",
+      "addressRegion": "Sonora",
+      "postalCode": "84000",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 31.3086,
+      "longitude": -110.9420
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }],
+    "sameAs": [
+      "https://maps.google.com/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <span class="logo" aria-hidden="true">🦷</span>
+        <a href="#home" class="brand-name">Dr. Axel Chávez</a>
+      </div>
+      <nav class="nav">
+        <a href="#home" data-i18n="nav.home">Inicio</a>
+        <a href="#about" data-i18n="nav.about">Sobre mí</a>
+        <a href="#services" data-i18n="nav.services">Servicios</a>
+        <a href="#testimonials" data-i18n="nav.testimonials">Testimonios</a>
+        <a href="#contact" data-i18n="nav.contact">Contacto</a>
+      </nav>
+      <div class="lang-switch">
+        <button id="btn-es" class="chip" aria-label="Cambiar a Español">ES</button>
+        <button id="btn-en" class="chip" aria-label="Switch to English">EN</button>
+        <a class="cta" id="ctaTop" href="https://wa.me/52XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="cta.book">Agendar por WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 data-i18n="hero.title">Odontología general con trato humano en Nogales, Sonora</h1>
+          <p data-i18n="hero.subtitle">Atención bilingüe (Español/English). Citas el mismo día para urgencias.</p>
+          <div class="hero-actions">
+            <a class="cta" href="https://wa.me/52XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="cta.book">Agendar por WhatsApp</a>
+            <a class="ghost" href="#services" data-i18n="cta.services">Ver servicios</a>
+          </div>
+          <ul class="badges">
+            <li data-i18n="badges.years">+X años de experiencia</li>
+            <li data-i18n="badges.bilingual">Bilingüe: Español/English</li>
+            <li data-i18n="badges.emergency">Urgencias</li>
+          </ul>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <h3 data-i18n="form.title">Agenda tu cita</h3>
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" name="name" placeholder="Nombre / Name" required />
+              <input type="tel" name="phone" placeholder="Teléfono / Phone" required />
+              <select name="service" required aria-label="Servicio">
+                <option value="" disabled selected data-i18n="form.selectDefault">Selecciona un servicio</option>
+                <option data-i18n="services.cleaning" value="Cleaning">Limpieza dental</option>
+                <option data-i18n="services.fillings" value="Fillings">Resinas/Empastes</option>
+                <option data-i18n="services.extractions" value="Extractions">Extracciones</option>
+                <option data-i18n="services.whitening" value="Whitening">Blanqueamiento</option>
+                <option data-i18n="services.prosthetics" value="Prosthetics">Prótesis</option>
+                <option data-i18n="services.emergency" value="Emergency">Urgencia</option>
+              </select>
+              <button type="submit" class="cta" data-i18n="form.submit">Enviar</button>
+            </form>
+            <small data-i18n="form.privacy">Nunca compartimos tu información.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2 data-i18n="about.title">Sobre mí</h2>
+          <p data-i18n="about.text">
+            Soy el Dr. Axel Chávez, odontólogo general. Ofrezco atención honesta y tratamientos basados en evidencia para toda la familia.
+          </p>
+          <ul class="checklist">
+            <li data-i18n="about.point1">Diagnóstico claro y opciones de tratamiento</li>
+            <li data-i18n="about.point2">Equipos esterilizados y protocolos de seguridad</li>
+            <li data-i18n="about.point3">Pagos flexibles</li>
+          </ul>
+        </div>
+        <div class="photo-block" role="img" aria-label="Clinica dental - Dental clinic"></div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2 data-i18n="services.title">Servicios</h2>
+        <div class="cards">
+          <article class="card">
+            <h3 data-i18n="services.cleaning">Limpieza dental</h3>
+            <p data-i18n="services.cleaningDesc">Profilaxis profesional para prevenir caries y gingivitis.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.fillings">Resinas/Empastes</h3>
+            <p data-i18n="services.fillingsDesc">Restauraciones estéticas y funcionales.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.extractions">Extracciones</h3>
+            <p data-i18n="services.extractionsDesc">Extracciones simples y manejo del dolor.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.whitening">Blanqueamiento</h3>
+            <p data-i18n="services.whiteningDesc">Tratamientos seguros para una sonrisa más brillante.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.prosthetics">Prótesis</h3>
+            <p data-i18n="services.prostheticsDesc">Prótesis parciales y totales a medida.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="services.emergency">Urgencias</h3>
+            <p data-i18n="services.emergencyDesc">Atención el mismo día para dolor o fracturas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2 data-i18n="testimonials.title">Testimonios</h2>
+        <div class="cards">
+          <blockquote class="card">
+            <p>“Excelente atención, muy profesional.”</p>
+            <cite>— M.G.</cite>
+          </blockquote>
+          <blockquote class="card">
+            <p>“Me explicaron todo con paciencia y salí sin dolor.”</p>
+            <cite>— R.C.</cite>
+          </blockquote>
+          <blockquote class="card">
+            <p>“Hablan inglés perfecto, ideal si vienes de EE.UU.”</p>
+            <cite>— S.L.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & MAP -->
+    <section id="contact" class="section alt">
+      <div class="container grid-2">
+        <div>
+          <h2 data-i18n="contact.title">Ubicación & Contacto</h2>
+          <p><strong data-i18n="contact.addressLabel">Dirección:</strong> <span data-i18n="contact.addressValue">Calle/Av. — Número — Colonia, Nogales, Sonora, 84000</span></p>
+          <p><strong data-i18n="contact.phoneLabel">Teléfono/WhatsApp:</strong> <a href="https://wa.me/52XXXXXXXXXX" target="_blank" rel="noopener">+52 XXXXXXXXXX</a></p>
+          <p><strong data-i18n="contact.hoursLabel">Horarios:</strong> <span data-i18n="contact.hoursValue">Lun–Sáb 9:00–18:00</span></p>
+          <a class="cta" href="https://wa.me/52XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="cta.book">Agendar por WhatsApp</a>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Nogales Sonora Map"
+            src="https://www.google.com/maps?q=Nogales%20Sonora&z=14&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Dr. Axel Chávez. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+      <a href="#home" class="ghost small" data-i18n="footer.backTop">Volver arriba</a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
